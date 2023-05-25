@@ -1,0 +1,56 @@
+/* Add the CSS styles for the Dashboard WebView layout */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+}
+
+header {
+  /* Add styles for the header */
+  background-color: #252526;
+  padding: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.project-overview {
+  /* Add styles for the Project Overview section */
+  background-color: #2d2d30;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.active-agent-tasks-summary {
+  /* Add styles for the Active Agent Tasks Summary section */
+  background-color: #2d2d30;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.quick-access {
+  /* Add styles for the Quick Access section */
+  background-color: #2d2d30;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.recent-activity-feed {
+  /* Add styles for the Recent Activity Feed section (optional) */
+  background-color: #2d2d30;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  /* Add styles for the footer */
+  background-color: #252526;
+  padding: 10px;
+  font-size: 0.9em;
+  text-align: center;
+}

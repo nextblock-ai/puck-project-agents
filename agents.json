@@ -1,0 +1,11 @@
+[
+    {
+        "id": "Z/C9WMeWt2075Oy7rmzQTb1kO7QjRqO96yQ+bKBkqTI=",
+        "name": "Agent 1: Finish Code",
+        "description": "Agent description",
+        "prompt": "UPDATE VS CODE EXTENSION\r\nUpdate the project by \r\n\r\n1. refactoring both the proposed changes webview and the agents webview in the project agents file into webview views. \r\n2. ensuring that the project is correctly configured to show the webview views in the sidebar\r\n3. ensuring that the webview views are correctly configured to show the proposed changes and the agent config.\r\n4. Ensuring that the package.json file is correctly configured to show the webview views in the sidebar.\r\nThe work is already partially complete - you can find:\r\n\r\n- the feature core: src/commands/project-agents.ts\r\n- A project agent manager that manages the agents and also has methods for creating anf showing the proposed changes and agent (now agent config) webviews: src/managers/ProjectAgentManager.ts\r\n- Look at the project-agent file for the rest of the dependencies if/when you need them.\r\n\r\nYou have two choices to implement showing the proposed changes: either use the existing webview view or show a tree in the webview view and then show an SVG that represents the proposed changes in the tree. You'll see that already implemented but I could not size the height of the SVG correctly so it was showinh a teeny tiny image. Maybe you can fix it. If you do, we'll need to hook up some buttons to the webview view so that the user can accept or reject the proposed changes.\r\n\r\nAGENT CONFIG\r\n\r\nAgent config UX is more or less like the proposed changes except that the agent config isn't removed like the proposed change is after an action. \r\n\r\nACCEPTANCE CRITERIA:\r\n\r\nI should\r\n\r\n- Be able to see my proposed changes in the proposed changes webview view in the sidebar. \r\n- Be able to click accept on a webview view and have the changes accepted.\r\n- Be able to click reject on a webview view and have the changes rejected.\r\n- Be able to see the agent config in the agent config webview view in the sidebar.",
+        "agentSettings": {},
+        "fileFilter": ["json","ts"],
+        "proposedChanges": [ ]
+    }
+]
